@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { getCategorias, createCategoria, updateCategoria, deleteCategoria } from '../controllers/categorias.controller.js';
 
 const router = Router();
-
+//hola
 router.get('/', getCategorias);
 router.post('/', createCategoria);
 router.put('/:id', updateCategoria);
